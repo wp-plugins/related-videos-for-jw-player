@@ -18,7 +18,7 @@ function rvjwp_script_enqueuer() {
 
 //STYLE
 function rvjwp_register_style() {
-	wp_register_style( 'rvjwp-style', plugins_url('css/rvjwp-style.css', 'related-videos-for-jwp-layer/css'));
+	wp_register_style( 'rvjwp-style', plugins_url('css/rvjwp-style.css', 'related-videos-for-jw-player/css'));
 }
 
 function rvjwp_add_style() {
