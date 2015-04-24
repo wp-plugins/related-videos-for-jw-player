@@ -12,14 +12,12 @@ If you're using JW Player on your site, you probably know Related Videos, a free
 Related Videos for JW Player will creates the correct xml for each category, so you'll be able to show related contents dynamically.<br>
 In your JW Player code, you'll have something like that:
 <pre>
-<strong>
 'related-1': {
    'file': 'http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed',
    'heading': 'More videos!',
    'onclick': 'link',
    'dimensions': '210x161'
 } 
-</strong>
 </pre>
 
 == Installation ==
