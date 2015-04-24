@@ -5,11 +5,13 @@ Requires at least: 3.0
 Tested up to: 4.1.2
 License: GPL 2
 
-It creates the feed required from "Related Videos" add-on of JW Player, one for each category. That's the url to use in your JW Player code: http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed 
+It creates the feed required from "Related Videos" add-on for JW Player, one for each category. 
 
 == Description ==
 If you're using JW Player on your site, you probably know Related Videos, a free add-on that allows you to show more contents to the users in a beautifull and simple layout.<br>
 Related Videos for JW Player will creates the correct xml for each category, so you'll be able to show related contents dynamically.<br>
+That's the url of your category feed:
+<pre>http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed</pre>
 In your JW Player code, you'll have something like that:
 <pre>
 'related-1': {
