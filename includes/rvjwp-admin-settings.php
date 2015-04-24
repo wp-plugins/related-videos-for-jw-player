@@ -8,7 +8,7 @@ add_action( 'init', 'rvjwp_script_enqueuer' );
 
 //SCRIPT
 function rvjwp_script_enqueuer() {
-   wp_register_script( "rvjwp-script", WP_PLUGIN_URL.'/related-videos-for-jwplayer/js/rvjwp-script.js', array('jquery') );
+   wp_register_script( "rvjwp-script", WP_PLUGIN_URL.'/related-videos-for-jw-player/js/rvjwp-script.js', array('jquery') );
    wp_localize_script( 'rvjwp-script', 'myAjax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' )));        
 
    wp_enqueue_script( 'jquery' );
@@ -18,7 +18,7 @@ function rvjwp_script_enqueuer() {
 
 //STYLE
 function rvjwp_register_style() {
-	wp_register_style( 'rvjwp-style', plugins_url('css/rvjwp-style.css', 'related-videos-for-jwplayer/css'));
+	wp_register_style( 'rvjwp-style', plugins_url('css/rvjwp-style.css', 'related-videos-for-jwp-layer/css'));
 }
 
 function rvjwp_add_style() {
@@ -29,7 +29,7 @@ function rvjwp_add_style() {
 //SUB-MENU PAGE 
 function rvjwp_add_menu() {
 	
-	$rvjwp_page = add_submenu_page( 'options-general.php', 'Related Videos for JW Player', 'Related Videos for JW Player', 'manage_options', 'related-videos-for-jwplayer', 'rvjwp_options');
+	$rvjwp_page = add_submenu_page( 'options-general.php', 'Related Videos for JW Player', 'Related Videos for JW Player', 'manage_options', 'related-videos-for-jw-player', 'rvjwp_options');
 	//GET STYLE
 	add_action( 'admin_print_styles-' . $rvjwp_page, 'rvjwp_add_style' );
 
@@ -60,7 +60,7 @@ function rvjwp_options() {
 
 	echo '<p>' . __('And that\'s the result:', 'rvjwp-lang') . '</p>';
 
-	echo '<img class="rvjwp-image" src="' . plugins_url('images/rvjwp-image.jpg', 'related-videos-for-jwplayer/images')  . '" />';
+	echo '<img class="rvjwp-image" src="' . plugins_url('images/rvjwp-image.jpg', 'related-videos-for-jw-player/images')  . '" />';
 
 	echo '</div>';
 

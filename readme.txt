@@ -10,6 +10,7 @@ It creates the feed required from "Related Videos" add-on for JW Player, one for
 == Description ==
 If you're using JW Player on your site, you probably know Related Videos, a free add-on that allows you to show more contents to the users in a beautifull and simple layout.<br>
 Related Videos for JW Player will creates the correct xml for each category, so you'll be able to show related contents dynamically.<br>
+Go to <strong>Settings/ Related Videos for JW Player</strong> menu and set you preferences.<br>
 <strong></strong>
 That's the url of your category feed:
 <pre>http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed</pre>
@@ -29,13 +30,14 @@ In your JW Player code, you'll have something like that:
 <li>Visit 'Plugins > Add New'</li>
 <li>Search for 'Related Videos for JW Player' and download it.</li>
 <li>Activate Related Videos for JW Player from your Plugins page.</li>
+<li>Once Activated, go to <strong>Settings/ Related Videos for JW Player</strong> menu and set you preferences.</li>
 </ul>
 <strong>From WordPress.org</strong>
 <ul>
 <li>Download Related Videos for JW Player</li>
 <li>Upload the 'related-videos-for-jwplayer' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)</li>
 <li>Activate Related Videos for JW Player from your Plugins page.</li>
-<li>Once Activated, go to Related Videos for JW Player menu and set you preferences.</li>
+<li>Once Activated, go to <strong>Settings/ Related Videos for JW Player</strong> menu and set you preferences.</li>
 </ul>
 
 == Frequently Asked Questions ==
@@ -47,7 +49,7 @@ It creates the feed required from "Related Videos" plugin of JWPlayer,  one for 
 
 <strong>What have I to do after the installation?</strong><br>
 First, you have to set how the plugin has to catch the video images of your wordpress posts. 
-You have two choises: 
+Go to <strong>Settings/ Related Videos for JW Player</strong> menu and set you preferences. 
 <ul>
 <li>Featured image</li>
 <li>Custom field (specifing the key)</li>
