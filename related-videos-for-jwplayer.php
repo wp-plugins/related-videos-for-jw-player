@@ -6,7 +6,7 @@ Plugin Name: Related Videos for JW Player
 
 Plugin URI: www.logicimage.it
 
-Description: It creates the feed required from "Related Videos" add-on of JW Player, one for each category. That's the url to use in your JW Player code: http://YOUR-SITE/category/THE-CATEGORY-SLUG/?feed=related-feed 
+Description: It creates the feed required from "Related Videos" add-on for JW Player, one for each category. That's the url to use in your JW Player code: http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed 
 
 Author: Andrea Gherardi
 

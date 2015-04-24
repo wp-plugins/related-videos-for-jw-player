@@ -10,6 +10,7 @@ It creates the feed required from "Related Videos" add-on for JW Player, one for
 == Description ==
 If you're using JW Player on your site, you probably know Related Videos, a free add-on that allows you to show more contents to the users in a beautifull and simple layout.<br>
 Related Videos for JW Player will creates the correct xml for each category, so you'll be able to show related contents dynamically.<br>
+<strong></strong>
 That's the url of your category feed:
 <pre>http://YOUR-SITE/archives/category/THE-CATEGORY-SLUG/?feed=related-feed</pre>
 In your JW Player code, you'll have something like that:
