@@ -67,7 +67,7 @@ function rvjwp_options() {
 
 	echo '<div class="wrap-right">';
 	echo '<div id="premium-banner">';
-	echo '<a href="http://www.ilghera.com/product/jw-player-wordpress-plugin-premium/" target="_blank"><img src="' . plugins_url('images/logo-premium.png', 'related-videos-for-jw-player/images') . '" /></a>';
+	echo '<a href="http://www.ilghera.com/product/jw-player-wordpress-plugin-premium/" target="_blank"><img src="' . plugins_url('images/logo-premium.jpg', 'related-videos-for-jw-player/images') . '" /></a>';
 	echo '<h3><a href="http://www.ilghera.com/product/jw-player-wordpress-plugin-premium/" target="_blank">JW Player Wordpress Plugin - Premium</a></h3>';
 	echo '<p>' . __('JW Player Wordpress Plugin – Premium is the complete solution for using JW Player into Wordpress.', 'rvjwp-lang') . '<br>';
 	echo __('It works with the latest version of the famous video player, JWP 7, and it gives you full control of all the options available.', 'rvjwp-lang') . '</p>';
