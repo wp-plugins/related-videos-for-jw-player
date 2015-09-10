@@ -66,5 +66,5 @@ Add this url to your JW Player code<br>
 3. Related Videos for JW Player - result
 
 == Changelog ==
-1.1 - Small text changes and added banner of Jw Player Wordpress Plugin - Premium
+1.1 - Small text changes, Jw Player Wordpress Plugin - Premium presentation.<br>
 1.0 - First release.
