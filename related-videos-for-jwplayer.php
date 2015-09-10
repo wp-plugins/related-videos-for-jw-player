@@ -10,7 +10,7 @@ Description: It creates the feed required from "Related Videos" add-on for JW Pl
 
 Author: Andrea Gherardi
 
-Version: 1.0
+Version: 1.1
 
 Author URI: www.logicimage.it
 
