@@ -67,11 +67,11 @@ function rvjwp_options() {
 
 	echo '<div class="wrap-right">';
 	echo '<div id="premium-banner">';
-	echo '<a href="http://www.ilghera.com/product/jw-player-wordpress-plugin-premium/" target="_blank"><img src="http://www.ilghera.com/wp-content/uploads/2015/09/logo-premium.png" /></a>';
-	echo '<h3><a href="http://www.ilghera.com/product/jw-player-wordpress-plugin-premium/" target="_blank">JW Player Wordpress Plugin - Premium</a></h3>';
-	echo '<p>' . __('JW Player Wordpress Plugin – Premium is the complete solution for using JW Player into Wordpress.', 'rvjwp-lang') . '<br>';
-	echo __('It works with the latest version of the famous video player, JWP 7, and it gives you full control of all the options available.', 'rvjwp-lang') . '</p>';
-	echo __('Some examples?', 'rvjwp-lang');
+	echo '<a href="http://www.ilghera.com/product/jw-player-7-for-wordpress-premium/" target="_blank"><img src="http://www.ilghera.com/wp-content/uploads/2015/09/logo-premium.png" /></a>';
+	echo '<h3><a href="http://www.ilghera.com/product/jw-player-7-for-wordpress-premium/" target="_blank">JW Player 7 for Wordpress - Plugin</a></h3>';
+	echo '<p>' . __('JW Player 7 for Wordpress - Plugin is the complete solution for using JW Player into Wordpress.', 'rvjwp-lang') . '<br>';
+	echo __('It gives you full control of all the options available.', 'rvjwp-lang') . '</p>';
+	echo __('Here some examples:', 'rvjwp-lang');
 	echo '<ul>';
 	echo '<li>' . __('Post type support', 'rvjwp-lang') . '</li>';
 	echo '<li>' . __('Embed player position', 'rvjwp-lang') . '</li>';
@@ -84,7 +84,7 @@ function rvjwp_options() {
 	echo '<li>' . __('Sharing with custom heading and embed option ', 'rvjwp-lang') . '</li>';
 	echo '<li>' . __('Basic Preroll Video Ads with Time Skipping', 'rvjwp-lang') . '</li>';
 	echo '</ul>';
-	echo '<a class="premium-button" href="http://www.ilghera.com/product/jw-player-wordpress-plugin-premium/" target="_blank">' . __('Read more', 'rvjwp-lang') . '</a>';
+	echo '<a class="premium-button" href="http://www.ilghera.com/product/jw-player-7-for-wordpress-premium/" target="_blank">' . __('Read more', 'rvjwp-lang') . '</a>';
 	echo '</div>';
 	echo '</div>';
 	echo '<div class="clear"></div>';
