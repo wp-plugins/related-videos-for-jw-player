@@ -68,8 +68,8 @@ function rvjwp_options() {
 	echo '<div class="wrap-right">';
 	echo '<div id="premium-banner">';
 	echo '<a href="http://www.ilghera.com/product/jw-player-7-for-wordpress-premium/" target="_blank"><img src="http://www.ilghera.com/wp-content/uploads/2015/09/logo-premium.png" /></a>';
-	echo '<h3><a href="http://www.ilghera.com/product/jw-player-7-for-wordpress-premium/" target="_blank">JW Player 7 for Wordpress - Plugin</a></h3>';
-	echo '<p>' . __('JW Player 7 for Wordpress - Plugin is the complete solution for using JW Player into Wordpress.', 'rvjwp-lang') . '<br>';
+	echo '<h3><a href="http://www.ilghera.com/product/jw-player-7-for-wordpress-premium/" target="_blank">JW Player 7 for Wordpress - Premium</a></h3>';
+	echo '<p>' . __('JW Player 7 for Wordpress - Premium is the complete solution for using JW Player into Wordpress.', 'rvjwp-lang') . '<br>';
 	echo __('It gives you full control of all the options available.', 'rvjwp-lang') . '</p>';
 	echo __('Here some examples:', 'rvjwp-lang');
 	echo '<ul>';
